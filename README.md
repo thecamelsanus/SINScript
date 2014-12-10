@@ -20,9 +20,9 @@ This script will install the following:
 
 Easy to update!  Just download updated installation files and add them to the folder.  
 Either alter the file names to match presets or edit sin.bat variables under: 
-:: App versions, 
-:: App setup files, 
-:: x86 setup files, 
-:: x64 setup files 
-and 
+:: App versions,  
+:: App setup files,  
+:: x86 setup files,  
+:: x64 setup files  
+and  
 :: Flags
