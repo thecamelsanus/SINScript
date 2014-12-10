@@ -350,7 +350,11 @@ echo %CUR_DATE% %TIME%    Done.
 echo %CUR_DATE% %TIME%   Finishing up...>> "%LOGPATH%\%LOGFILE%"
 echo %CUR_DATE% %TIME%   Finishing up...
 :: Copy Java log to log folder
+echo %CUR_DATE% %TIME%   Copying Java log to %LOGPATH%...>> "%LOGPATH%\%LOGFILE%"
+echo %CUR_DATE% %TIME%   Copying Java log to %LOGPATH%...
 xcopy JU=0 %LOGPATH%
+echo %CUR_DATE% %TIME%    Done.>> "%LOGPATH%\%LOGFILE%"
+echo %CUR_DATE% %TIME%    Done.
 ::
 :: Log footer
 ::
